@@ -7,11 +7,6 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch:
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
-
 jobs:
   ping:
     runs-on: ubuntu-latest
